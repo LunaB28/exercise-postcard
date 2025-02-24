@@ -1,0 +1,81 @@
+body {
+	background: black;
+}
+.postcard {
+	background-color: #dfdfdf;
+	width: 800px;
+	height: 600px;
+	margin: auto;
+	padding: 50px;
+}
+.postcard-header {
+	display: flex;
+}
+.postcard-header img {
+	width: 100px;
+	height: 100px;
+}
+
+.postcard-header h1 {
+	width: 700px;
+	margin: 0;
+
+	font-family: cursive;
+	font-size: 60px;
+}
+.postcard-body {
+	display: flex;
+	height: 400px;
+}
+p {
+	font-family: century "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.body-left p:first-child {
+	margin-top: 50px;
+}
+body-left,
+.body-right {
+	padding: 10px;
+	width: 200px;
+	max-width: 300px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.body-left {
+	float: left;
+}
+.body-right {
+	margin-top: 200px;
+	margin-left: 80px;
+}
+input {
+	border: 10px;
+	border-bottom: 10px;
+	background-color: rgb(104, 202, 255);
+	height: 35px;
+	width: 250px;
+	font-size: 20px;
+	font-family: "Times New Roman", Times, serif;
+}
+input:nth-child(3) {
+	height: 100px;
+}
+postcard-footer {
+	text-align: center;
+}
+button {
+	background-color: #9554ce;
+	padding: 15px;
+	text-align: center;
+	border-top-color: rgb(0, 0, 0);
+	border-bottom-color: rgb(255, 255, 255);
+	border-left-color: rgb(0, 0, 0);
+	border-right-color: rgb(255, 255, 255);
+}
+button:hover {
+	background-color: #752eb3;
+	border-top-color: rgb(250, 247, 247);
+	border-bottom-color: rgb(0, 0, 0);
+	border-left-color: rgb(255, 255, 255);
+	border-right-color: rgb(0, 0, 0);
+}
